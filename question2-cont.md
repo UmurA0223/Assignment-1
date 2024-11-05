@@ -13,7 +13,7 @@ exon1 = "GTCAGTCA"
 intron = "CGTACGTA"
 exon2 = "TACGATCG"
 stop_codon = "TCA"
-utr_three = "AAAGGAATCC"
+three_utr = "AAAGGAATCC"
 
 full_gene_sequence = (
     promoter + 
@@ -23,7 +23,7 @@ full_gene_sequence = (
     intron + 
     exon2 + 
     stop_codon + 
-    utr_three
+    three_utr
 )
 
 print("Full Gene Sequence:")
