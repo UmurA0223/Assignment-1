@@ -7,13 +7,13 @@ corresponding to individual nucleotide bases.
 
 ```python
 promoter = "ATAATATCGATCG"
-utr_5 = "GGGAAATTT"
+five_utr = "GGGAAATTT"
 start_codon = "ATG"
 exon1 = "GTCAGTCA"
 intron = "CGTACGTA"
 exon2 = "TACGATCG"
 stop_codon = "TCA"
-utr_3 = "AAAGGAATCC"
+three_utr = "AAAGGAATCC"
 
 full_gene_sequence = (
     promoter + 
