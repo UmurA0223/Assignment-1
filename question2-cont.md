@@ -14,7 +14,7 @@ intron = "CGTACGTA"
 exon2 = "TACGATCG"
 stop_codon = "TCA"
 utr_3 = "AAAGGAATCC"
-```
+
 full_gene_sequence = (
     promoter + 
     five_utr + 
@@ -26,5 +26,8 @@ full_gene_sequence = (
     three_utr
 )
 
+print("Full Gene Sequence:")
 print(full_gene_sequence)
+```
+
 
